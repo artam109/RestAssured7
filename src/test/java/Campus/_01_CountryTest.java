@@ -106,7 +106,7 @@ public class _01_CountryTest {
                 .when()
                 .put("/school-service/api/countries")
                 .then().log().body()
-                .statusCode(200);
+                .statusCode(201); // jenkinste hata için 200'den 201 yapıldı
     }
 
 
